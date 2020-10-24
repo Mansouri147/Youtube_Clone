@@ -23,7 +23,7 @@ function VideoRow({
               {subs}
             </span> Subscribers{" "}
           </span>{" "}
-          {views} DOT {timestamp}
+          {views} • {timestamp}
         </p>
         <p className="videoRow__description">{description}</p>
       </div>

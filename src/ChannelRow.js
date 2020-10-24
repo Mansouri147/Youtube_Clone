@@ -13,13 +13,13 @@ function ChannelRow({
 }) {
   return (
     <div className="channelRow">
-      <Avatar className="channelRow__logo" alt={channel} src={image} />
+      <img className="channelRow__logo" alt={channel} src={image} />
       <div className="channelRow__text">
         <h4>
           {channel} {verified && <VerifiedIcon />}
         </h4>
         <p>
-          {subs} subscribers DOT {noOfVideos} videos
+          {subs} subscribers • {noOfVideos} videos
         </p>
         <p>{description}</p>
       </div>
